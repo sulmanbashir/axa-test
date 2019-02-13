@@ -1,0 +1,790 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Test Results - CHROME 71.0.3578.98 Mac OS X </title>
+
+  <style>
+    html, body {
+      font-family: Arial,sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    body { padding: 10px 40px; }
+
+    table { width: 100%; margin-bottom: 20px; }
+
+      td {
+        padding: 7px;
+        border-top: none;
+        border-left: 1px black solid;
+        border-bottom: 1px black solid;
+        border-right: none;
+      }
+
+      td.pass { color: #003b07; background: #86e191; }
+      td.skip { color: #7d3a00; background: #ffd24a; }
+      td.fail { color: #5e0e00; background: #ff9c8a; }
+
+    tr:last-child       { border-top: 1px black solid; }
+      tr:last-child td    { border-top: 1px black solid; }
+      tr:first-child td   { border-top: 1px black solid; }
+        td:last-child       { border-right: 1px black solid; }
+
+    tr.overview td      { padding-bottom: 0px; border-bottom: none; }
+    tr.overview.last td { padding-bottom: 3px; }
+
+    ul.assertions   { list-style-type: none; }
+      span.error      { color: #AD2B2B; }
+      span.success    { color: #53891E; }
+
+    .stacktrace { display: inline; }
+      .stacktrace code { display: none; }
+
+    #nightwatch-logo {
+      position: absolute;
+      top: 20px;
+      right: 33px;
+      width: 70px;
+      height: 75px;
+      background: transparent url('http://ficom-conseil.com/wp-content/uploads/2017/03/AXA-vector-logo.png') no-repeat;
+      background-size: 70px 75px;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Test Results</h1>
+
+  <table border="0" cellpadding="0" cellspacing="0">
+    <tr class="overview">
+      <td colspan="3" title="CHROME 71.0.3578.98 Mac OS X "><strong>Browser:</strong> CHROME 71.0.3578.98 Mac OS X </td>
+    </tr>
+    <tr class="overview">
+      <td colspan="3"><strong>Timestamp:</strong> Wed Feb 13 2019 00:52:31 GMT+0100 (CET)</td>
+    </tr>
+    <tr class="overview last">
+      <td colspan="3"><strong>Tests:</strong> 71<br></td>
+    </tr>
+    <tr>
+      <td class="pass"><strong>71</strong> passed</td>
+      <td class="skip"><strong>0</strong> errors</td>
+      <td class="fail"><strong>0</strong> failures</td>
+    </tr>
+  </table>
+
+      <h2>test-case3</h2>
+
+        <h3>Visit axa adventure page and title should be AXA’s adventure | AXA</h3>
+        <ul class="assertions">
+            <li>
+                <span class="success">&#10004;</span>
+
+              Element &lt;body&gt; was visible after 35 milliseconds.
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Testing if the page title equals &quot;AXA’s adventure | AXA&quot;.
+
+
+            </li>
+        </ul>
+
+        <p>
+            <span class="success"><strong>OK.</strong></span>
+            <span class="success"><strong>2</strong></span> assertions passed. (10.91s)
+        </p>
+        <h3>it should accept cookie</h3>
+        <ul class="assertions">
+            <li>
+                <span class="success">&#10004;</span>
+
+              Element &lt;.cookie-banner__button&gt; was visible after 39 milliseconds.
+
+
+            </li>
+        </ul>
+
+        <p>
+            <span class="success"><strong>OK.</strong></span>
+            <span class="success"><strong>1</strong></span> assertions passed. (0.1090s)
+        </p>
+        <h3>it should see 1990-2000 period, text below and progress bar color should be rgba(181, 208, 238, 1)</h3>
+        <ul class="assertions">
+            <li>
+                <span class="success">&#10004;</span>
+
+              Element &lt;.period-3 &gt; .periods-list__button &gt; .container &gt; .periods-list__button-surtitle&gt; was visible after 47 milliseconds.
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Testing if element &lt;.period-3 &gt; .periods-list__button &gt; .container &gt; .periods-list__button-surtitle&gt; is visible.
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Element &lt;.period-3 &gt; .periods-list__button &gt; .container &gt; .hidden-xs&gt; was visible after 33 milliseconds.
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Testing if element &lt;.period-3 &gt; .periods-list__button &gt; .container &gt; .hidden-xs&gt; is visible.
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Expected element &lt;.period-3 &gt; .periods-list__button &gt; .container &gt; .periods-list__button-surtitle&gt; text to equal: &quot;1990 - 2000&quot; - condition was met in 31ms
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Expected element &lt;.period-3 &gt; .periods-list__button &gt; .container &gt; .hidden-xs&gt; text to equal: &quot;AXA, world leader for insurance&quot; - condition was met in 32ms
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Testing if element &lt;.periods-list__period.period-3 .progress-bar&gt; has css property &quot;background-color: rgba(181, 208, 238, 1)&quot;.
+
+
+            </li>
+        </ul>
+
+        <p>
+            <span class="success"><strong>OK.</strong></span>
+            <span class="success"><strong>7</strong></span> assertions passed. (0.2460s)
+        </p>
+        <h3>it should click on 1990-2000 and see information</h3>
+        <ul class="assertions">
+            <li>
+                <span class="success">&#10004;</span>
+
+              Element &lt;.period-3 &gt; .periods-list__button &gt; .container&gt; was visible after 34 milliseconds.
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Testing if element &lt;.period-3 &gt; .periods-list__button &gt; .container&gt; is visible.
+
+
+            </li>
+        </ul>
+
+        <p>
+            <span class="success"><strong>OK.</strong></span>
+            <span class="success"><strong>2</strong></span> assertions passed. (2.153s)
+        </p>
+        <h3>it should see 1990-2000 title, same progress bar and same text</h3>
+        <ul class="assertions">
+            <li>
+                <span class="success">&#10004;</span>
+
+              Element &lt;#period-1990-2000 &gt; .container &gt; .period-cover__wrapper &gt; .period-cover__surtitle &gt; h3&gt; was visible after 36 milliseconds.
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Testing if element &lt;#period-1990-2000 &gt; .container &gt; .period-cover__wrapper &gt; .period-cover__surtitle &gt; h3&gt; is visible.
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Element &lt;#period-1990-2000 &gt; .container &gt; .period-cover__wrapper &gt; .period-cover__title-desktop &gt; h2&gt; was visible after 34 milliseconds.
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Testing if element &lt;#period-1990-2000 &gt; .container &gt; .period-cover__wrapper &gt; .period-cover__title-desktop &gt; h2&gt; is visible.
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Expected element &lt;#period-1990-2000 &gt; .container &gt; .period-cover__wrapper &gt; .period-cover__surtitle &gt; h3&gt; text to equal: &quot;1990 - 2000&quot; - condition was met in 35ms
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Expected element &lt;#period-1990-2000 &gt; .container &gt; .period-cover__wrapper &gt; .period-cover__title-desktop &gt; h2&gt; text to equal: &quot;AXA, world leader for insurance&quot; - condition was met in 29ms
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Testing if element &lt;.period-cover.period-cover-3 .period-cover__surtitle-border&gt; has css property &quot;background-color: rgba(181, 208, 238, 1)&quot;.
+
+
+            </li>
+        </ul>
+
+        <p>
+            <span class="success"><strong>OK.</strong></span>
+            <span class="success"><strong>7</strong></span> assertions passed. (0.2280s)
+        </p>
+        <h3>it should see contrib text and should be equal</h3>
+        <ul class="assertions">
+            <li>
+                <span class="success">&#10004;</span>
+
+              Element &lt;:nth-child(16) &gt; .container &gt; .row &gt; .col-sm-10 &gt; .contrib-text &gt; p&gt; was visible after 33 milliseconds.
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Testing if element &lt;:nth-child(16) &gt; .container &gt; .row &gt; .col-sm-10 &gt; .contrib-text &gt; p&gt; is visible.
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Expected element &lt;:nth-child(16) &gt; .container &gt; .row &gt; .col-sm-10 &gt; .contrib-text &gt; p&gt; text to equal: &quot;The early 90s are marked by three main events: the fall of the Berlin Wall, the Gulf War and a major economic recession. This challenging period also opens up opportunities for those who know how to capitalize on them. &quot; - condition was met in 30ms
+
+
+            </li>
+        </ul>
+
+        <p>
+            <span class="success"><strong>OK.</strong></span>
+            <span class="success"><strong>3</strong></span> assertions passed. (0.09300s)
+        </p>
+        <h3>it should see Key dates title</h3>
+        <ul class="assertions">
+            <li>
+                <span class="success">&#10004;</span>
+
+              Element &lt;:nth-child(17) &gt; .container &gt; .key-dates__title &gt; h3&gt; was visible after 36 milliseconds.
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Testing if element &lt;:nth-child(17) &gt; .container &gt; .key-dates__title &gt; h3&gt; is visible.
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Expected element &lt;:nth-child(17) &gt; .container &gt; .key-dates__title &gt; h3&gt; text to equal: &quot;Key dates&quot; - condition was met in 32ms
+
+
+            </li>
+        </ul>
+
+        <p>
+            <span class="success"><strong>OK.</strong></span>
+            <span class="success"><strong>3</strong></span> assertions passed. (0.1040s)
+        </p>
+        <h3>it should see image of 1991, text and badge color</h3>
+        <ul class="assertions">
+            <li>
+                <span class="success">&#10004;</span>
+
+              Testing if element &lt;.period-cover-3 ~ .key-dates .react-slider .react-slider__pagination-item.active .react-slider__dot&gt; is visible.
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Expected element &lt;:nth-child(17) &gt; .container &gt; .key-dates__slider &gt; .react-slider &gt; .react-slider__items &gt; .active &gt; .key-dates__content &gt; .key-dates__content-text&gt; text to equal: &quot;A majority interest is acquired in the US life insurance firm Equitable.&quot; - condition was met in 33ms
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Element &lt;.period-cover-3 ~ .key-dates .react-slider .react-slider__item.active .key-dates__content-year&gt; was visible after 33 milliseconds.
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Testing if element &lt;.period-cover-3 ~ .key-dates .react-slider .react-slider__item.active .key-dates__content-year&gt; has css property &quot;background-color: rgba(181, 208, 238, 1)&quot;.
+
+
+            </li>
+        </ul>
+
+        <p>
+            <span class="success"><strong>OK.</strong></span>
+            <span class="success"><strong>4</strong></span> assertions passed. (0.1390s)
+        </p>
+        <h3>it should see second image of 1991, text and badge color</h3>
+        <ul class="assertions">
+            <li>
+                <span class="success">&#10004;</span>
+
+              Testing if element &lt;:nth-child(17) &gt; .container &gt; .key-dates__slider &gt; .react-slider &gt; .react-slider__pagination &gt; :nth-child(2) &gt; .react-slider__dot&gt; is visible.
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Testing if element &lt;:nth-child(17) &gt; .container &gt; .key-dates__slider &gt; .react-slider &gt; .react-slider__pagination &gt; .active &gt; .react-slider__dot&gt; is visible.
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Expected element &lt;:nth-child(17) &gt; .container &gt; .key-dates__slider &gt; .react-slider &gt; .react-slider__items &gt; :nth-child(2) &gt; .key-dates__content &gt; .key-dates__content-text&gt; text to equal: &quot;AXA Hearts In Action is created, AXA’s employee volunteering program. &quot; - condition was met in 68ms
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Element &lt;:nth-child(17) &gt; .container &gt; .key-dates__slider &gt; .react-slider &gt; .react-slider__items &gt; .active &gt; .key-dates__content &gt; .key-dates__content-year&gt; was visible after 64 milliseconds.
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Testing if element &lt;:nth-child(17) &gt; .container &gt; .key-dates__slider &gt; .react-slider &gt; .react-slider__items &gt; .active &gt; .key-dates__content &gt; .key-dates__content-year&gt; has css property &quot;background-color: rgba(181, 208, 238, 1)&quot;.
+
+
+            </li>
+        </ul>
+
+        <p>
+            <span class="success"><strong>OK.</strong></span>
+            <span class="success"><strong>5</strong></span> assertions passed. (1.061s)
+        </p>
+        <h3>it should see image of 1994, text and badge color</h3>
+        <ul class="assertions">
+            <li>
+                <span class="success">&#10004;</span>
+
+              Testing if element &lt;:nth-child(17) &gt; .container &gt; .key-dates__slider &gt; .react-slider &gt; .react-slider__pagination &gt; :nth-child(3) &gt; .react-slider__dot&gt; is visible.
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Testing if element &lt;:nth-child(17) &gt; .container &gt; .key-dates__slider &gt; .react-slider &gt; .react-slider__pagination &gt; .active &gt; .react-slider__dot&gt; is visible.
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Expected element &lt;:nth-child(17) &gt; .container &gt; .key-dates__slider &gt; .react-slider &gt; .react-slider__items &gt; :nth-child(3) &gt; .key-dates__content &gt; .key-dates__content-text&gt; text to equal: &quot;The “Ambitions 2001” strategic plan is launched. Objective: to be the world number 1 by 2001.&quot; - condition was met in 50ms
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Element &lt;.period-cover-3 ~ .key-dates .react-slider .react-slider__item.active .key-dates__content-year&gt; was visible after 47 milliseconds.
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Testing if element &lt;.period-cover-3 ~ .key-dates .react-slider .react-slider__item.active .key-dates__content-year&gt; has css property &quot;background-color: rgba(181, 208, 238, 1)&quot;.
+
+
+            </li>
+        </ul>
+
+        <p>
+            <span class="success"><strong>OK.</strong></span>
+            <span class="success"><strong>5</strong></span> assertions passed. (0.7790s)
+        </p>
+        <h3>it should see image of 1995, text and badge color</h3>
+        <ul class="assertions">
+            <li>
+                <span class="success">&#10004;</span>
+
+              Testing if element &lt;:nth-child(17) &gt; .container &gt; .key-dates__slider &gt; .react-slider &gt; .react-slider__pagination &gt; :nth-child(4) &gt; .react-slider__dot&gt; is visible.
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Testing if element &lt;:nth-child(17) &gt; .container &gt; .key-dates__slider &gt; .react-slider &gt; .react-slider__pagination &gt; .active &gt; .react-slider__dot&gt; is visible.
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Expected element &lt;:nth-child(17) &gt; .container &gt; .key-dates__slider &gt; .react-slider &gt; .react-slider__items &gt; :nth-child(4) &gt; .key-dates__content &gt; .key-dates__content-text&gt; text to equal: &quot;The Group takes its first steps in Asia, acquiring an interest in the Australian group National Mutual and its Hong Kong-based subsidiary.&quot; - condition was met in 51ms
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Element &lt;.period-cover-3 ~ .key-dates .react-slider .react-slider__item.active .key-dates__content-year&gt; was visible after 53 milliseconds.
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Testing if element &lt;.period-cover-3 ~ .key-dates .react-slider .react-slider__item.active .key-dates__content-year&gt; has css property &quot;background-color: rgba(181, 208, 238, 1)&quot;.
+
+
+            </li>
+        </ul>
+
+        <p>
+            <span class="success"><strong>OK.</strong></span>
+            <span class="success"><strong>5</strong></span> assertions passed. (0.7540s)
+        </p>
+        <h3>it should see second image of 1996, text and badge color</h3>
+        <ul class="assertions">
+            <li>
+                <span class="success">&#10004;</span>
+
+              Testing if element &lt;:nth-child(17) &gt; .container &gt; .key-dates__slider &gt; .react-slider &gt; .react-slider__pagination &gt; :nth-child(4) &gt; .react-slider__dot&gt; is visible.
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Testing if element &lt;:nth-child(17) &gt; .container &gt; .key-dates__slider &gt; .react-slider &gt; .react-slider__pagination &gt; .active &gt; .react-slider__dot&gt; is visible.
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Expected element &lt;:nth-child(17) &gt; .container &gt; .key-dates__slider &gt; .react-slider &gt; .react-slider__items &gt; :nth-child(5) &gt; .key-dates__content &gt; .key-dates__content-text&gt; text to equal: &quot;AXA merges with UAP to become France’s number 1 insurer and considerably strengthens its presence in Europe.&quot; - condition was met in 59ms
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Element &lt;.period-cover-3 ~ .key-dates .react-slider .react-slider__item.active .key-dates__content-year&gt; was visible after 57 milliseconds.
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Testing if element &lt;.period-cover-3 ~ .key-dates .react-slider .react-slider__item.active .key-dates__content-year&gt; has css property &quot;background-color: rgba(181, 208, 238, 1)&quot;.
+
+
+            </li>
+        </ul>
+
+        <p>
+            <span class="success"><strong>OK.</strong></span>
+            <span class="success"><strong>5</strong></span> assertions passed. (0.7760s)
+        </p>
+        <h3>it should see first paragraph of contrib text</h3>
+        <ul class="assertions">
+            <li>
+                <span class="success">&#10004;</span>
+
+              Testing if element &lt;:nth-child(18) &gt; .container &gt; .row &gt; .col-sm-10 &gt; .contrib-text &gt; :nth-child(1)&gt; is visible.
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Expected element &lt;:nth-child(18) &gt; .container &gt; .row &gt; .col-sm-10 &gt; .contrib-text &gt; :nth-child(1)&gt; text to equal: &quot;AXA acquires the US firm Equitable. With this acquisition, AXA establishes itself as a leading international group.&quot; - condition was met in 35ms
+
+
+            </li>
+        </ul>
+
+        <p>
+            <span class="success"><strong>OK.</strong></span>
+            <span class="success"><strong>2</strong></span> assertions passed. (0.06500s)
+        </p>
+        <h3>it should see second paragraph of contrib text</h3>
+        <ul class="assertions">
+            <li>
+                <span class="success">&#10004;</span>
+
+              Testing if element &lt;:nth-child(18) &gt; .container &gt; .row &gt; .col-sm-10 &gt; .contrib-text &gt; :nth-child(2)&gt; is visible.
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Expected element &lt;:nth-child(18) &gt; .container &gt; .row &gt; .col-sm-10 &gt; .contrib-text &gt; :nth-child(2)&gt; text to equal: &quot;The second key milestone from this decade takes place five years later. To widespread surprise, AXA “absorbs” UAP, which is twice its size. This deal creates France’s number 1 and the world’s number 2 insurer. &quot; - condition was met in 37ms
+
+
+            </li>
+        </ul>
+
+        <p>
+            <span class="success"><strong>OK.</strong></span>
+            <span class="success"><strong>2</strong></span> assertions passed. (0.07600s)
+        </p>
+        <h3>it should see the third paragraph of contrib text</h3>
+        <ul class="assertions">
+            <li>
+                <span class="success">&#10004;</span>
+
+              Testing if element &lt;:nth-child(18) &gt; .container &gt; .row &gt; .col-sm-10 &gt; .contrib-text &gt; :nth-child(3)&gt; is visible.
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Expected element &lt;:nth-child(18) &gt; .container &gt; .row &gt; .col-sm-10 &gt; .contrib-text &gt; :nth-child(3)&gt; text to equal: &quot;AXA follows this with a series of acquisitions, buying out the Japanese company Nippon Dantai and taking over Guardian Royal Exchange, enabling it to strengthen its presence in 15 countries and move into the health segment through its subsidiary PPP Healthcare. &quot; - condition was met in 40ms
+
+
+            </li>
+        </ul>
+
+        <p>
+            <span class="success"><strong>OK.</strong></span>
+            <span class="success"><strong>2</strong></span> assertions passed. (0.07600s)
+        </p>
+        <h3>it should see the fourth paragraph of contrib text</h3>
+        <ul class="assertions">
+            <li>
+                <span class="success">&#10004;</span>
+
+              Testing if element &lt;:nth-child(18) &gt; .container &gt; .row &gt; .col-sm-10 &gt; .contrib-text &gt; :nth-child(4)&gt; is visible.
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Expected element &lt;:nth-child(18) &gt; .container &gt; .row &gt; .col-sm-10 &gt; .contrib-text &gt; :nth-child(4)&gt; text to equal: &quot;In 1999, eight years after being created, Direct Assurance opens its Internet site. The Group’s digitalization is underway.&quot; - condition was met in 38ms
+
+
+            </li>
+        </ul>
+
+        <p>
+            <span class="success"><strong>OK.</strong></span>
+            <span class="success"><strong>2</strong></span> assertions passed. (0.07400s)
+        </p>
+        <h3>it should see the fifth paragraph of contrib text</h3>
+        <ul class="assertions">
+            <li>
+                <span class="success">&#10004;</span>
+
+              Testing if element &lt;:nth-child(18) &gt; .container &gt; .row &gt; .col-sm-10 &gt; .contrib-text &gt; :nth-child(5)&gt; is visible.
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Expected element &lt;:nth-child(18) &gt; .container &gt; .row &gt; .col-sm-10 &gt; .contrib-text &gt; :nth-child(5)&gt; text to equal: &quot;At the dawn of the new millennium, AXA becomes a global leader. More than ever, its success is built around a shared culture.&quot; - condition was met in 32ms
+
+
+            </li>
+        </ul>
+
+        <p>
+            <span class="success"><strong>OK.</strong></span>
+            <span class="success"><strong>2</strong></span> assertions passed. (0.07100s)
+        </p>
+        <h3>it should see quote_image and quote_wrapper</h3>
+        <ul class="assertions">
+            <li>
+                <span class="success">&#10004;</span>
+
+              Element &lt;.quote__image&gt; was visible after 31 milliseconds.
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Testing if element &lt;.quote__image&gt; is visible.
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Element &lt;.quote__wrapper&gt; was visible after 41 milliseconds.
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Testing if element &lt;.quote__wrapper&gt; is visible.
+
+
+            </li>
+        </ul>
+
+        <p>
+            <span class="success"><strong>OK.</strong></span>
+            <span class="success"><strong>4</strong></span> assertions passed. (1.167s)
+        </p>
+        <h3>Quote text should be equal</h3>
+        <ul class="assertions">
+            <li>
+                <span class="success">&#10004;</span>
+
+              Testing if element &lt;.quote__text &gt; p&gt; is visible.
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Expected element &lt;.quote__text &gt; p&gt; text to equal: &quot;“This condition is essential for developing a shared economic adventure”&quot; - condition was met in 37ms
+
+
+            </li>
+        </ul>
+
+        <p>
+            <span class="success"><strong>OK.</strong></span>
+            <span class="success"><strong>2</strong></span> assertions passed. (0.07500s)
+        </p>
+        <h3>Quote name should be equal</h3>
+        <ul class="assertions">
+            <li>
+                <span class="success">&#10004;</span>
+
+              Testing if element &lt;.quote__name &gt; p&gt; is visible.
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Expected element &lt;.quote__name &gt; p&gt; text to equal: &quot;Claude Bébéar&quot; - condition was met in 39ms
+
+
+            </li>
+        </ul>
+
+        <p>
+            <span class="success"><strong>OK.</strong></span>
+            <span class="success"><strong>2</strong></span> assertions passed. (0.07400s)
+        </p>
+        <h3>it should click on header bar in order to see the others periods</h3>
+        <ul class="assertions">
+            <li>
+                <span class="success">&#10004;</span>
+
+              Testing if element &lt;.timeline-sticky-header-3 &gt; .timeline-sticky-header__button &gt; .container &gt; .timeline-sticky-header__wrapper &gt; .hidden-xs.hidden-sm&gt; is visible.
+
+
+            </li>
+        </ul>
+
+        <p>
+            <span class="success"><strong>OK.</strong></span>
+            <span class="success"><strong>1</strong></span> assertions passed. (0.1110s)
+        </p>
+        <h3>it should close periods list</h3>
+        <ul class="assertions">
+            <li>
+                <span class="success">&#10004;</span>
+
+              Testing if element &lt;.icon-cross-gap&gt; is visible.
+
+
+            </li>
+        </ul>
+
+        <p>
+            <span class="success"><strong>OK.</strong></span>
+            <span class="success"><strong>1</strong></span> assertions passed. (0.1190s)
+        </p>
+        <h3>it should click on Discover our values</h3>
+        <ul class="assertions">
+            <li>
+                <span class="success">&#10004;</span>
+
+              Testing if element &lt;.link&gt; is visible.
+
+
+            </li>
+        </ul>
+
+        <p>
+            <span class="success"><strong>OK.</strong></span>
+            <span class="success"><strong>1</strong></span> assertions passed. (2.428s)
+        </p>
+        <h3>url should be equal</h3>
+        <ul class="assertions">
+            <li>
+                <span class="success">&#10004;</span>
+
+              Testing if the URL equals &quot;https://www.axa.com/en/careers/our-culture-and-values&quot;.
+
+
+            </li>
+        </ul>
+
+        <p>
+            <span class="success"><strong>OK.</strong></span>
+            <span class="success"><strong>1</strong></span> assertions passed. (0.5690s)
+        </p>
+
+
+      <hr>
+
+  <div id="nightwatch-logo"></div>
+
+  <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+  <script>
+  $(function() {
+    $('div.stacktrace').on('click', 'a', function(evt) {
+      evt.preventDefault();
+
+      var $link = $(this);
+      var $code = $link.parent().find('code');
+
+      $code.is(':visible') ? $link.text('hide stacktrace'):
+                             $link.text('view stacktrace');
+
+      $code.toggle();
+    });
+  });
+  </script>
+</body>
+</html>
